@@ -1,0 +1,172 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carwash University-Kenya.</title>
+
+         <!--link from google fonts-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@400;700&family=Roboto:wght@100&family=Vazirmatn:wght@200;600&display=swap" rel="stylesheet">
+         <!-- fonts awsome 4 cdn-->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        
+        <section class="sub-header">
+            <nav class="navbar navbar-style">
+                <div class="container"> 
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-icon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button><!--for menu icon-->
+                        <a href=""><img src="static/images/logo.svg" alt="logo-image" class="logo"></a>
+                    </div>
+    
+                    <div class="collapse navbar-collapse" id="menu-icon"><!--makes menu clickable-->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li style=" border:1px solid green;"><a href="">Blog</a></li>
+                            <li><a href="about">About Us</a></li>
+                            <li><a href="services">Carwash-Services</a></li>
+                            <li><a href="contact">Contact-Us</a></li>
+                            <li><a href="">Pay</a></li>
+                            <li><a href="/signout" >Logout</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </nav>
+
+            <h1>Our Certiphicate and Admission Programs 2022.</h1>
+        </section>
+
+       <!--Blog contents-->
+       <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="static/images/graduate.jpg" alt="Student">
+                    <h2>Our Certiphicate and Admission Programs 2022.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni optio consequuntur, unde dicta rem, similique maiores ex cupiditate accusantium sed at ipsa aliquam sequi vero praesentium deserunt, aliquid repudiandae reiciendis!</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fugit consectetur iusto, explicabo iste voluptatibus assumenda labore quos reiciendis dolorem ipsa at maiores obcaecati natus eligendi iure eveniet reprehenderit ad!</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, tenetur neque cum nisi non sint dolorum libero necessitatibus, doloribus ex architecto odio sunt dolor dolore vel ipsam cupiditate vero autem.</p>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempore provident in aspernatur laborum voluptatem, dicta inventore voluptate, ullam a accusantium, atque ipsam ad. Unde incidunt tempora amet omnis quo.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn" >POST A COMMENT</button> &nbsp;&nbsp;&nbsp;
+                            <button type="submit" class="hero-btn red-btn" ><a href="#" style="text-decoration:none;color:black">VIEW COMMENTS</a></button>
+                        </form>
+                    </div>
+    
+                </div>
+
+                
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Carwash Operations</span>
+                        <span>100</span>
+                    </div>
+                    <div>
+                        <span>Motor-Mechanical Engineering</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>30</span>
+                    </div>
+                    <div>
+                        <span>H/R</span>
+                        <span>07</span>
+                    </div>
+                    <div>
+                        <span>Sports and Gaming</span>
+                        <span>55</span>
+                    </div>
+                    <div>
+                        <span>Food and Beverages</span>
+                        <span>100</span>
+                    </div> <br>
+                    
+                    
+                </div>
+                
+                
+            </div>
+       </section>
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum repellendus
+                    rerum exercitationem ipsa. Beatae eum quis, <br>quisquam porro, aliquam 
+                    explicabo, ducimus officiis quasi velit eaque veniam laborum est 
+                    reprehenderit odio.
+                </p>
+
+                <div class="icons">
+                    <i class="fa fa-facebook-official"></i><!--import the link after you go online-->
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p>Made With <i class="fa fa-heart-o">love</i> by Happy Otieno Blackie.</p>
+        </section>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!---Javascript for Toggle Menu-->
+        <script>
+
+            var navLinks= = document.getElementById("navLinks");
+
+            function showMenu()
+            {
+                    navLinks.style.right="0";
+            }
+
+            function hideMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+    </body>
+</html>

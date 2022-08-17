@@ -1,0 +1,89 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="{% static 'joinus.css' %}">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-style">
+            <div class="container"> 
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-icon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--for menu icon-->
+                    <a href=""><img src="static/images/logo.svg" alt="logo-image" class="logo"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="menu-icon"><!--makes menu clickable-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li style=" border:1px solid green;"><a href="">Login/Sign Up</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 banner-info">
+                    <h1>Join Us Now</h1>
+                    <p class="big-text">And Learn More</p>
+                    <p>Having an account? <span>Sign in</span>. Not yet? <span>Sign Up</span>.</p>
+
+                    <a href="/signin" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span>Login</a> 
+                    <a href="/signup" class="btn btn-success">Signup</a>
+                </div>
+
+                <div class="col-sm-6 banner-image">
+                    <img src="static/images/b.jpg" alt="image" class="img-responsive">
+                </div>
+            </div>
+        </div>
+
+         <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum repellendus
+                rerum exercitationem ipsa. Beatae eum quis, <br>quisquam porro, aliquam 
+                explicabo, ducimus officiis quasi velit eaque veniam laborum est 
+                reprehenderit odio.
+            </p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i><!--import the link after you go online-->
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> by Happy Otieno Blackie.</p>
+        </section>
+
+    </header>
+
+
+   
+
+</body>
+</html>      
